@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e734974c-1084-4491-8b14-96f075e700be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/encryptors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryptors/ceaser_encryptor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryptors/encryptor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryptors/reverse_encryptor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret hider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret hider/file_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret hider/file_vault.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret hider/key_validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret hider/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/markers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SecretMessage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SecretMessage.iml" afterDir="false" />
+    <list default="true" id="e734974c-1084-4491-8b14-96f075e700be" name="Changes" comment="Implement Encryptor abstract base class and ceaser_encryptor subclass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encryptors/reverse_encryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/encryptors/reverse_encryptor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "PedroElCortesdeCartelius"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PedroElCortesdeCartelius/SecretMessage.git",
+    "accountId": "a60bc150-cac6-4a40-95ac-307849e5475f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -48,6 +48,7 @@
   "keyToString": {
     "Python.ceaser_encryptor.executor": "Run",
     "Python.encryptor.executor": "Run",
+    "Python.reverse_encryptor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -77,15 +78,40 @@
       <option name="presentableId" value="Default" />
       <updated>1748702500284</updated>
       <workItem from="1748702501396" duration="3000" />
-      <workItem from="1748771514879" duration="6871000" />
+      <workItem from="1748771514879" duration="9084000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement Encryptor abstract base class and ceaser_encryptor subclass">
+      <option name="closed" value="true" />
+      <created>1748778857587</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748778857587</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement Encryptor abstract base class and ceaser_encryptor subclass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Encryptor abstract base class and ceaser_encryptor subclass" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SecretMessage$ceaser_encryptor.coverage" NAME="ceaser_encryptor Coverage Results" MODIFIED="1748778557652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encryptors" />
+    <SUITE FILE_PATH="coverage/SecretMessage$reverse_encryptor.coverage" NAME="reverse_encryptor Coverage Results" MODIFIED="1748786771542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encryptors" />
     <SUITE FILE_PATH="coverage/SecretMessage$encryptor.coverage" NAME="encryptor Coverage Results" MODIFIED="1748773086423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encruptors" />
   </component>
 </project>
