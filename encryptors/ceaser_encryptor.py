@@ -4,24 +4,23 @@ import string
 
 class ceaser_enc(Encryptor):
     def __init__(self):
-        self.shift = random.randint(1, 10)
+        self.shift = 8
 
     def encrypt(self, message:str):
         alphabet=string.ascii_letters
         shifted=alphabet[self.shift:]+alphabet[:self.shift]
         table=str.maketrans(alphabet, shifted)
-        encrypted=f"{self.shift}{message.translate(table)}"
+        encrypted=f"{message.translate(table)}"
         return encrypted
 
 
     def decrypt(self, encrypted:str):
         alphabet=string.ascii_letters
-        shift=int(encrypted[0])
-        encrypted_body=encrypted[1:]
-        shifted=alphabet[shift:]+alphabet[:shift]
+        shifted=alphabet[self.shift:]+alphabet[:self.shift]
         table=str.maketrans(shifted, alphabet)
-        decrypted=encrypted_body.translate(table)
+        decrypted=encrypted.translate(table)
         return decrypted
+
 
 
 
