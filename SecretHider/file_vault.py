@@ -35,6 +35,7 @@ class SecretManager:
 
     def delete(self, path:str):
         content=self.file_handler.read_file(path)
+        content=visible(content)
         start = content.find(self.marker_start)
         end = content.find(self.marker_end)
         end += len(self.marker_end)

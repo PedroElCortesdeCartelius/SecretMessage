@@ -1,5 +1,4 @@
 from encryptors.encryptor import Encryptor
-import random
 import string
 
 class ceaser_enc(Encryptor):

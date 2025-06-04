@@ -17,16 +17,27 @@ if option=="1":
     message=input("Enter the secret: ")
     encryptor=input("Which encryptor would you like to use? \n1:Ceaser encryptor \n2:Reverse alphabet encryptor \nEnter the number:")
     if encryptor=="1":
-        #inv_message=(invisible(message))
         SecretManager(ceaser_enc()).hide(path, message)
-
-
     if encryptor=="2":
-        inv_message = invisible(message)
-        SecretManager(ceaser_enc()).hide(path, inv_message)
+        SecretManager(reverse_enc()).hide(path, message)
+
+
+
 if option=="2":
-    decrypted_secret = SecretManager(ceaser_enc()).reveal(path)
-    print(decrypted_secret)
+    encryptor=input("Which encryptor is used?: \n1:Ceaser encryptor \n2:Reverse alphabet encryptor")
+    if encryptor=="1":
+        decrypted_secret = SecretManager(ceaser_enc()).reveal(path)
+        print(decrypted_secret)
+    if encryptor=="2":
+        decrypted_secret = SecretManager(reverse_enc()).reveal(path)
+        print(decrypted_secret)
+
+if option=="3":
+    SecretManager(None).delete(path)
+
+
+
+
 
 
 
