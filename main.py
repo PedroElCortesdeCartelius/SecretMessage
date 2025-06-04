@@ -18,7 +18,7 @@ while True:
     print("What do you want to do with the secret? \n1:Hide \n2:Reveal \n3:Delete")
     option=input("Enter the number:")
     if option=="1":
-        message=input("Enter the secret: ")
+        message=input("Enter the secret(enter only latin letters): ")
         encryptor=input("Which encryptor would you like to use? \n1:Ceaser encryptor \n2:Reverse alphabet encryptor \nEnter the number:")
         if encryptor=="1":
             SecretManager(ceaser_enc()).hide(path, message)
