@@ -7,7 +7,7 @@ class reverse_enc(Encryptor):
         rev_alphabet = alphabet[::-1]
         table = str.maketrans(alphabet, rev_alphabet)
         rev_encrypted=message.translate(table)
-        return rev_encrypted\
+        return rev_encrypted
 
 
     def decrypt(self, encrypted:str):
