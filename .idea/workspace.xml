@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e734974c-1084-4491-8b14-96f075e700be" name="Changes" comment="Completed the test for encrypting and decrypting">
+    <list default="true" id="e734974c-1084-4491-8b14-96f075e700be" name="Changes" comment="completed the testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1748857805775" duration="4697000" />
       <workItem from="1748969722560" duration="15812000" />
       <workItem from="1749033722091" duration="597000" />
-      <workItem from="1749043002319" duration="13588000" />
+      <workItem from="1749043002319" duration="13709000" />
     </task>
     <task id="LOCAL-00001" summary="Implement Encryptor abstract base class and ceaser_encryptor subclass">
       <option name="closed" value="true" />
@@ -170,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749076483256</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="completed the testing">
+      <option name="closed" value="true" />
+      <created>1749077957076</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749077957076</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +203,11 @@
     <MESSAGE value="reverse encryptor is invisible as well" />
     <MESSAGE value="Completed the main.py" />
     <MESSAGE value="Completed the test for encrypting and decrypting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the test for encrypting and decrypting" />
+    <MESSAGE value="completed the testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed the testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SecretMessage$main.coverage" NAME="main Coverage Results" MODIFIED="1749070877082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SecretMessage$main.coverage" NAME="main Coverage Results" MODIFIED="1749078020775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SecretMessage$file_handler.coverage" NAME="file_handler Coverage Results" MODIFIED="1748793155584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secret hider" />
     <SUITE FILE_PATH="coverage/SecretMessage$file_vault.coverage" NAME="file_vault Coverage Results" MODIFIED="1748992279863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SecretHider" />
     <SUITE FILE_PATH="coverage/SecretMessage$reverse_encryptor.coverage" NAME="reverse_encryptor Coverage Results" MODIFIED="1748786894420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encryptors" />
